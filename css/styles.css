@@ -63,7 +63,8 @@ h2{
     display: inline-block;
 }
 .m4{
-    width: 18%;
+    border-radius: 50%;
+    width: 19%;
     margin-right: 10px;
     float: left;
     margin-left: 12%;
