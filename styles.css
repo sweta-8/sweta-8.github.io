@@ -18,7 +18,7 @@ body {
     width: 14.66%; /* 1/6th of the page */
     background-color: #333;
     color: #fff;
-    padding: 20px;
+    padding: 1%;
     height: 100vh;
     position: fixed;
     overflow: auto;
@@ -31,8 +31,8 @@ body {
 }
 
 .sidebar ul li {
-    margin: 30px 0;
-    font-size: xx-large;
+    margin: 10% 0;
+    font-size: x-large;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -44,7 +44,7 @@ body {
 .main-content {
     margin-left: 16.66%; /* Offset by the width of the sidebar */
     width: 83.34%; /* Remaining part of the page */
-    padding: 150px;
+    padding: 10%;
     box-sizing: border-box; /* Ensure padding is included in the width */
     background-color: rgb(243, 226, 233);
     position: relative;
@@ -54,7 +54,7 @@ body {
 }
 
 section {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 h2 {
@@ -64,9 +64,9 @@ h2 {
 .rounded-image {
     border-radius: 50%; /* Makes the image circular */
     margin-top: 12%;
-    margin-left: 15%;
-    width: 150px; /* Adjust the width as needed */
-    height: 150px; /* Adjust the height as needed */
+    width: 70%; /* Adjust the width as needed */
+    height: 70%; /* Adjust the height as needed */
+
   }
 
   .next-tab {
