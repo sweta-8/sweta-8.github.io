@@ -68,3 +68,17 @@ h2 {
     width: 150px; /* Adjust the width as needed */
     height: 150px; /* Adjust the height as needed */
   }
+
+  .next-tab {
+    display: block;
+    margin: 20px 0;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.next-tab:hover {
+    background-color: #555;
+}
