@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar {
+    width: 14.66%; /* 1/6th of the page */
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    height: 100vh;
+    position: fixed;
+    overflow: auto;
+    z-index: 2;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 30px 0;
+    font-size: xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.sidebar ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.main-content {
+    margin-left: 16.66%; /* Offset by the width of the sidebar */
+    width: 83.34%; /* Remaining part of the page */
+    padding: 150px;
+    box-sizing: border-box; /* Ensure padding is included in the width */
+    background-color: rgb(243, 226, 233);
+    position: relative;
+    z-index: 1;
+    left: 2%; /* Offset by the width of the sidebar */
+    font-size: large;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+.rounded-image {
+    border-radius: 50%; /* Makes the image circular */
+    margin-top: 12%;
+    margin-left: 15%;
+    width: 150px; /* Adjust the width as needed */
+    height: 150px; /* Adjust the height as needed */
+  }
