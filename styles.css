@@ -47,7 +47,7 @@ body {
     width: 80%;              /* Takes remaining space */
     padding: 4%;
     background-color: rgb(243, 226, 233);
-    font-size: clamp(20%, 1.3vw, 100%);
+    font-size: clamp(100%, 1.3vw, 100%);
     /* text-align: justify; */
     box-sizing: border-box;
 }
