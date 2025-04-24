@@ -48,7 +48,7 @@ body {
     padding: 4%;
     background-color: rgb(243, 226, 233);
     font-size: clamp(15px, 1.3vw, 18px);
-    text-align: justify;
+    /* text-align: justify; */
     box-sizing: border-box;
 }
 
