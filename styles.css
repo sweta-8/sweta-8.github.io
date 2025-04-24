@@ -15,7 +15,7 @@ body {
 }
 
 .sidebar {
-    width: 14.66%; /* 1/6th of the page */
+    width: 16.66%; /* 1/6th of the page */
     background-color: #333;
     color: #fff;
     padding: 1%;
@@ -23,6 +23,7 @@ body {
     position: fixed;
     overflow: auto;
     z-index: 2;
+    margin-left: -8%;
 }
 
 .sidebar ul {
@@ -42,14 +43,14 @@ body {
 }
 
 .main-content {
-    margin-left: 16.66%; /* Offset by the width of the sidebar */
-    width: 83.34%; /* Remaining part of the page */
-    padding: 10%;
-    box-sizing: border-box; /* Ensure padding is included in the width */
+    margin-left: 13.66%; 
+    /* width: 83.34%; */
+    padding: 12%;
+    /* box-sizing: border-box; */
     background-color: rgb(243, 226, 233);
     position: relative;
-    z-index: 1;
-    left: 2%; /* Offset by the width of the sidebar */
+    /* z-index: 1; */
+    /* left: 2%; */
     font-size: 100%;
     text-align: justify;
 }
