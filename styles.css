@@ -17,7 +17,7 @@ body {
 }
 
 .sidebar {
-    width: auto;               /* Dynamic width */
+    width: 20%;               /* Dynamic width */
     /* min-width: 210px;          Ensures enough space for image/text */
     background-color: #333;
     color: #fff;
