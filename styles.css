@@ -12,6 +12,7 @@ body {
     margin: 0 auto;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    min-height: 100vh; /* Ensure full height */
 }
 
 .sidebar {
@@ -19,11 +20,9 @@ body {
     background-color: #333;
     color: #fff;
     padding: 1%;
-    height: 100vh;
-    position: fixed;
-    overflow: auto;
-    z-index: 2;
-    margin-left: -8%;
+    /* Remove position: fixed, margin-left, height, z-index, overflow */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
 }
 
 .sidebar ul {
@@ -43,16 +42,12 @@ body {
 }
 
 .main-content {
-    margin-left: 13.66%; 
-    /* width: 83.34%; */
-    padding: 12%;
-    /* box-sizing: border-box; */
+    width: 83.34%; /* Take the rest of the space */
+    padding: 4%; /* Adjust padding as needed */
     background-color: rgb(243, 226, 233);
-    position: relative;
-    /* z-index: 1; */
-    /* left: 2%; */
     font-size: 100%;
     text-align: justify;
+    box-sizing: border-box;
 }
 
 section {
