@@ -34,7 +34,7 @@ body {
 
 .sidebar ul li {
     margin: 5% 0;
-    font-size: clamp(16px, 2vw, 24px);
+    font-size: clamp(16px, 2vw, 20px);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -44,10 +44,10 @@ body {
 }
 
 .main-content {
-    flex-grow: 1;              /* Takes remaining space */
+    width: 80%;              /* Takes remaining space */
     padding: 4%;
     background-color: rgb(243, 226, 233);
-    font-size: clamp(15px, 1.3vw, 20px);
+    font-size: clamp(15px, 1.3vw, 18px);
     text-align: justify;
     box-sizing: border-box;
 }
