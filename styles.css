@@ -390,34 +390,11 @@ a:hover {
 }
 
 /* Responsive adjustment for social icons on mobile */
-/* Responsive adjustments for mobile */
-@media screen and (max-width: 850px) {
-    .container {
-        flex-direction: column;
-    }
-    .sidebar {
-        width: 100%;
-        border-right: none;
-        border-bottom: 1px solid rgba(255, 255, 255, 0.05);
-        padding: 5% 2%;
-        min-height: auto;
-    }
-    .main-content {
-        width: 100%;
-        padding: 5%;
-        overflow-y: visible;
-    }
+@media screen and (max-width: 768px) {
     .top-right-socials {
-        position: relative;
-        top: 0;
-        right: 0;
-        margin-bottom: 25px;
-        justify-content: flex-end;
-    }
-    .google-card-anim {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
+        position: absolute;
+        top: 20px;
+        right: 20px;
     }
 }
 
