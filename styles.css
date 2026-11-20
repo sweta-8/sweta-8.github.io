@@ -352,41 +352,14 @@ a:hover {
     backdrop-filter: blur(10px);
     transition: color 0.3s ease, transform 0.3s ease, background 0.3s ease, border-color 0.3s ease;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-    animation: serialHighlight 4s infinite ease-in-out;
-}
-
-.top-right-socials a:nth-child(1) { animation-delay: 0s; }
-.top-right-socials a:nth-child(2) { animation-delay: 1s; }
-.top-right-socials a:nth-child(3) { animation-delay: 2s; }
-.top-right-socials a:nth-child(4) { animation-delay: 3s; }
-
-.top-right-socials:hover a {
-    animation-play-state: paused;
 }
 
 .top-right-socials a:hover {
-    color: #60a5fa !important;
-    background: rgba(30, 41, 59, 0.9) !important;
-    transform: translateY(-3px) !important;
-    border-color: #3b82f6 !important;
-    box-shadow: 0 6px 20px rgba(59, 130, 246, 0.3) !important;
-}
-
-@keyframes serialHighlight {
-    0%, 25%, 100% {
-        color: #cbd5e1;
-        background: rgba(30, 41, 59, 0.6);
-        transform: translateY(0);
-        border-color: #1e293b;
-        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-    }
-    5%, 20% {
-        color: #60a5fa;
-        background: rgba(30, 41, 59, 0.9);
-        transform: translateY(-3px);
-        border-color: #3b82f6;
-        box-shadow: 0 6px 20px rgba(59, 130, 246, 0.3);
-    }
+    color: #60a5fa;
+    background: rgba(30, 41, 59, 0.9);
+    transform: translateY(-3px);
+    border-color: #3b82f6;
+    box-shadow: 0 6px 20px rgba(59, 130, 246, 0.3);
 }
 
 /* Responsive adjustment for social icons on mobile */
